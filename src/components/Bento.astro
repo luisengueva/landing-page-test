@@ -1,0 +1,19 @@
+---
+import BentoPokemon from "./BentoPokemon.astro";
+import BentoType from "./BentoType.astro";
+import BentoStats from "./BentoStats.astro";
+import BentoInfo from "./BentoInfo.astro";
+---
+
+<section
+  class="w-full max-w-[1400]px grid grid-cols-10 auto-rows-auto gap-4 p-6 md:p-12 lg:p-20 mx-auto"
+>
+  <BentoPokemon
+    class="col-span-10 md:col-span-3"
+    title="Haunter"
+    number="093"
+  />
+  <BentoType class="col-span-10 md:col-span-2" />
+  <BentoStats class="col-span-10 md:col-span-5" life="" attack="" speed="" />
+  <BentoInfo class="col-span-10" />
+</section>

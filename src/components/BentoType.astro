@@ -1,0 +1,29 @@
+<article
+  class={`
+  ${Astro.props.class}
+  relative rounded-xl
+  backdrop-blur-md
+  border border-black/10
+  shadow-inner shadow-white/10
+  overflow-hidden
+  group
+`}
+>
+  <div
+    class="relative select-none flex flex-col gap-1 p-2 md:p-6 text-lg z-20 justify-end h-full text-center bg-gray-900"
+  >
+    <h2 class="text-3xl font-semibold text-balance text-white uppercase">
+      TIPO
+    </h2>
+    <h3
+      class="text-1xl font-semibold text-balance text-white uppercase bg-gradient-to-l from-gray-400 to-gray-700"
+    >
+      Fantasma
+    </h3>
+    <h3
+      class="text-1xl font-semibold text-balance text-white uppercase bg-gradient-to-l from-violet-400 to-violet-700"
+    >
+      Veneno
+    </h3>
+  </div>
+</article>

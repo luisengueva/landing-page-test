@@ -1,0 +1,27 @@
+---
+const { currentLocale } = Astro;
+---
+
+<header
+  id="header-nav"
+  class="fixed w-full z-50 top-0 px-6 animate-fade animate-duration-1500"
+>
+  <div
+    class="grid [grid-template-columns:40px_repeat(2,1fr)] sm:grid-cols-3 max-w-7xl mx-auto py-1 items-center justify-between"
+  >
+    <a href="/" class="col-span-1">
+      <img alt="Pokemon" src="/pokemon.svg" class="mt-1 w-16 h-auto" />
+    </a>
+    <nav
+      class="col-span-1 w-full flex gap-2 justify-end md:justify-center mt-1"
+    >
+      <a class="hover:underline" href="/">Home</a>
+      <a class="hover:underline" href="/Bento">About</a>
+    </nav>
+    <a
+      href="#"
+      class="mt-1 ml-2 border text-xs text-center md:text-base rounded-full inline-block border-white px-2 py-2 justify-self-end hover:bg-white hover:text-black duration-300"
+    >
+    </a>
+  </div>
+</header>

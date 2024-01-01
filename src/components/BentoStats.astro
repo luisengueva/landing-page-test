@@ -1,0 +1,17 @@
+---
+interface Props {
+  class?: string;
+  life: string;
+  attack: string;
+  speed: string;
+}
+
+const { life, attack, speed } = Astro.props;
+---
+
+<article
+  class={`${Astro.props.class} relative rounded-xl backdrop-blur-md border border-black/10 bg-gradient-to-b from-violet-400 to-violet-700`}
+>
+  <h2>STATS</h2>
+  <h3>Haunter</h3>
+</article>

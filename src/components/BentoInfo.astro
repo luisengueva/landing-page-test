@@ -1,0 +1,21 @@
+---
+interface Props {
+  class?: string;
+}
+---
+
+<article
+  class={`${Astro.props.class} relative rounded-xl backdrop-blur-md border border-black/10 bg-gradient-to-b from-violet-400 to-violet-700 p-4 text-center `}
+>
+  <h2 class="text-3xl font-semibold text-balance text-white uppercase">
+    Curiosidad
+  </h2>
+  <p class="text-xl text-white text-pretty ml-10 mr-10">
+    Haunter está basado en un Yōkai o espíritu japonés, donde varios tipos de
+    estos espíritus usan sus grandes lenguas como ataque. Su cuerpo púrpura se
+    encuentra hecho de gas en su totalidad, de aspecto puntiagudo, tiene dos
+    enormes ojos, así como una gran boca con picos que se asemejan a dientes y
+    una lengua gaseosa que puede extender, posee dos manos que no están unidas a
+    su cuerpo y sin embargo se encuentras siempre cerca de él.
+  </p>
+</article>
