@@ -10,8 +10,6 @@ This project is a reinvention of the classic Pokédex, designed to facilitate le
 
 - **Tailwind CSS:** The utility-first CSS framework for styling the interface.
 
-- **HTML, CSS, JavaScript:** Fundamental web technologies for building the interface and interactivity.
-
 ## Installation 🛠️
 
 1. Clone this repository: `git clone https://github.com/luisengueva/prokedex`
